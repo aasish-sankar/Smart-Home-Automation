@@ -62,20 +62,16 @@ Before you begin, ensure you have the following:
 
 ### Installation
 
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/your-username/Smart-Home-Automation.git
-   cd Smart-Home-Automation
-2. **Upload the Code to Arduino**
+1. **Upload the Code to Arduino**
   Open the SmartHomeControl.ino file in the Arduino IDE.
   Connect your Arduino board to your computer.
   Select the appropriate board and port from the Tools menu in the Arduino IDE.
   Click the upload button to upload the code to your Arduino.
-3. **Wiring Diagram**
+2. **Wiring Diagram**
   Light Bulb: Connect the relay module controlling the light bulb to pin 13 of the Arduino.
   Table Fan: Connect the relay module controlling the table fan to pin 12 of the Arduino.
   Power Supply: Ensure both the light bulb and fan are connected to a suitable power supply through the relay modules.
-4. **Usage**
+3. **Usage**
   Once the code is uploaded and everything is wired correctly, you can control the devices using serial commands:
 
 ### Light Bulb Control:
