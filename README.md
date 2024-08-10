@@ -71,21 +71,21 @@ Before you begin, ensure you have the following:
   Connect your Arduino board to your computer.
   Select the appropriate board and port from the Tools menu in the Arduino IDE.
   Click the upload button to upload the code to your Arduino.
-**Wiring Diagram**
+3. **Wiring Diagram**
   Light Bulb: Connect the relay module controlling the light bulb to pin 13 of the Arduino.
   Table Fan: Connect the relay module controlling the table fan to pin 12 of the Arduino.
   Power Supply: Ensure both the light bulb and fan are connected to a suitable power supply through the relay modules.
-**Usage**
+4. **Usage**
   Once the code is uploaded and everything is wired correctly, you can control the devices using serial commands:
 
-**Light Bulb Control:**
+### Light Bulb Control:
   Send 1 to turn the light bulb ON.
   Send 2 to turn the light bulb OFF.
-**Table Fan Control:**
+### Table Fan Control:
   Send 3 to turn the table fan ON.
   Send 4 to turn the table fan OFF.
-**Serial Commands**
-  Use a Bluetooth application such as 'Arduino Bluetooth' to send these commands to the Arduino. Make sure the baud rate is set to 9600.
+### Serial Commands
+Use a Bluetooth application such as 'Arduino Bluetooth' to send these commands to the Arduino. Make sure the baud rate is set to 9600.
 
 1: Turns the light bulb ON.
 2: Turns the light bulb OFF.
