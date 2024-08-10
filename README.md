@@ -77,7 +77,7 @@ Before you begin, ensure you have the following:
 ### Serial Commands
 Use a Bluetooth application such as 'Arduino Bluetooth' to send these commands to the Arduino. Make sure the baud rate is set to 9600.
 
-1: Turns the light bulb ON.
-2: Turns the light bulb OFF.
-3: Turns the table fan ON.
-4: Turns the table fan OFF.
+1: **Light Bulb** ON.
+2: **Light Bulb** OFF.
+3: **Table Fan** ON.
+4: **Table Fan** OFF.
