@@ -26,12 +26,6 @@ Before you begin, ensure you have the following:
 - Basic understanding of how to connect and use relay modules with an Arduino.
 - A serial communication app on your smartphone or a serial monitor tool on your computer (like the one built into the Arduino IDE).
 
-### Installation
-
-1. **Clone the Repository**
-   ```sh
-   git clone https://github.com/your-username/Smart-Home-Automation.git
-   cd Smart-Home-Automation
 # Smart Home Automation
 
 This project is a simple Arduino-based smart home automation system that allows you to control a light bulb and a table fan using a smartphone via serial communication.
